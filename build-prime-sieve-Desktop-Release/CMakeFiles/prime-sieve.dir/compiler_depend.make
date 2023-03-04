@@ -190,12 +190,65 @@ CMakeFiles/prime-sieve.dir/main.cpp.o: /home/liam/repos/Prime-sieve/prime-sieve/
   /usr/include/c++/12/bits/stl_uninitialized.h \
   /usr/include/c++/12/bits/stl_vector.h \
   /usr/include/c++/12/bits/stl_bvector.h \
-  /usr/include/c++/12/bits/vector.tcc
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/12/bits/specfun.h \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/tr1/gamma.tcc \
+  /usr/include/c++/12/tr1/special_function_util.h \
+  /usr/include/c++/12/tr1/bessel_function.tcc \
+  /usr/include/c++/12/tr1/beta_function.tcc \
+  /usr/include/c++/12/tr1/ell_integral.tcc \
+  /usr/include/c++/12/tr1/exp_integral.tcc \
+  /usr/include/c++/12/tr1/hypergeometric.tcc \
+  /usr/include/c++/12/tr1/legendre_function.tcc \
+  /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/12/tr1/poly_hermite.tcc \
+  /usr/include/c++/12/tr1/poly_laguerre.tcc \
+  /usr/include/c++/12/tr1/riemann_zeta.tcc
 
+
+/usr/include/c++/12/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/12/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/12/tr1/hypergeometric.tcc:
+
+/usr/include/c++/12/tr1/exp_integral.tcc:
+
+/usr/include/c++/12/tr1/ell_integral.tcc:
+
+/usr/include/c++/12/tr1/bessel_function.tcc:
+
+/usr/include/c++/12/tr1/gamma.tcc:
+
+/usr/include/c++/12/limits:
+
+/usr/include/c++/12/bits/specfun.h:
+
+/usr/include/bits/mathcalls-narrow.h:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/bits/math-vector.h:
 
 /usr/include/c++/12/bits/stl_bvector.h:
 
 /usr/include/c++/12/bits/stl_vector.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
 
 /usr/include/c++/12/bits/stl_uninitialized.h:
 
@@ -221,6 +274,8 @@ CMakeFiles/prime-sieve.dir/main.cpp.o: /home/liam/repos/Prime-sieve/prime-sieve/
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/include/bits/fp-logb.h:
+
 /usr/include/asm-generic/errno.h:
 
 /usr/include/asm/errno.h:
@@ -231,6 +286,8 @@ CMakeFiles/prime-sieve.dir/main.cpp.o: /home/liam/repos/Prime-sieve/prime-sieve/
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
+/usr/include/c++/12/tr1/riemann_zeta.tcc:
+
 /usr/include/bits/types/struct_FILE.h:
 
 /usr/include/c++/12/cstdio:
@@ -238,6 +295,8 @@ CMakeFiles/prime-sieve.dir/main.cpp.o: /home/liam/repos/Prime-sieve/prime-sieve/
 /usr/include/bits/stdlib-bsearch.h:
 
 /usr/include/alloca.h:
+
+/usr/include/c++/12/tr1/beta_function.tcc:
 
 /usr/include/bits/types/sigset_t.h:
 
@@ -264,6 +323,8 @@ CMakeFiles/prime-sieve.dir/main.cpp.o: /home/liam/repos/Prime-sieve/prime-sieve/
 /usr/include/stdio.h:
 
 /usr/include/c++/12/bits/functional_hash.h:
+
+/usr/include/bits/iscanonical.h:
 
 /usr/include/c++/12/bits/stl_construct.h:
 
@@ -329,6 +390,8 @@ CMakeFiles/prime-sieve.dir/main.cpp.o: /home/liam/repos/Prime-sieve/prime-sieve/
 
 /usr/include/c++/12/debug/assertions.h:
 
+/usr/include/bits/flt-eval-method.h:
+
 /usr/include/bits/types/FILE.h:
 
 /usr/include/c++/12/bits/istream.tcc:
@@ -341,9 +404,13 @@ CMakeFiles/prime-sieve.dir/main.cpp.o: /home/liam/repos/Prime-sieve/prime-sieve/
 
 /usr/include/c++/12/x86_64-redhat-linux/bits/cpu_defines.h:
 
+/usr/include/c++/12/tr1/poly_hermite.tcc:
+
 /usr/include/bits/types.h:
 
 /home/liam/repos/Prime-sieve/prime-sieve/main.cpp:
+
+/usr/include/c++/12/tr1/special_function_util.h:
 
 /usr/include/c++/12/ostream:
 
@@ -362,6 +429,8 @@ CMakeFiles/prime-sieve.dir/main.cpp.o: /home/liam/repos/Prime-sieve/prime-sieve/
 /usr/include/sched.h:
 
 /usr/include/c++/12/iostream:
+
+/usr/include/bits/mathcalls.h:
 
 /usr/include/bits/types/__fpos_t.h:
 
@@ -467,6 +536,8 @@ CMakeFiles/prime-sieve.dir/main.cpp.o: /home/liam/repos/Prime-sieve/prime-sieve/
 
 /usr/include/c++/12/bits/stl_algobase.h:
 
+/usr/include/c++/12/cmath:
+
 /usr/include/features.h:
 
 /usr/include/bits/endianness.h:
@@ -523,6 +594,8 @@ CMakeFiles/prime-sieve.dir/main.cpp.o: /home/liam/repos/Prime-sieve/prime-sieve/
 
 /usr/include/c++/12/bits/stl_iterator_base_types.h:
 
+/usr/include/c++/12/tr1/legendre_function.tcc:
+
 /usr/include/bits/setjmp.h:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
@@ -548,6 +621,8 @@ CMakeFiles/prime-sieve.dir/main.cpp.o: /home/liam/repos/Prime-sieve/prime-sieve/
 /usr/include/c++/12/debug/debug.h:
 
 /usr/include/c++/12/bits/stl_function.h:
+
+/usr/include/math.h:
 
 /usr/include/c++/12/pstl/pstl_config.h:
 

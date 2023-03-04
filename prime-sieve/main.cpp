@@ -1,18 +1,40 @@
 #include <iostream>
 #include <vector>
+#include <cmath>
 
-using NUM = uint_fast32_t;
+using NUM = uint_fast64_t;
+
+void decoder(std::vector<bool> &vec);
 
 int main()
 {
-    std::vector<NUM> primes{};
-//    NUM max{ 1'000'000'000 };
-   NUM max{ 10'000 };
-    primes.reserve(max);
+    NUM max{ 1'000'000'000 }, currentMultiple{ 3 }, vecStartPos{}, limit{ static_cast<NUM>(std::sqrt(max)) };
+    const NUM ARR_MAX{ max/2 };
+    std::vector<bool> primes(ARR_MAX, 1);
+
+    while(currentMultiple < limit) {
+        NUM i{vecStartPos + currentMultiple};
+        if (primes.at(vecStartPos) == 1) {
+            for(NUM j{ i }; j < ARR_MAX; j += currentMultiple) {
+                primes.at(j) = false;
+            }
+        }
 
 
-    for (NUM i{3}; i <= max; i+=2) {
-        primes.push_back(i);
+        currentMultiple += 2;
+        vecStartPos++;
     }
-    std::cout << primes.back() << std::endl;
+
+//    decoder(primes);
+}
+
+void decoder(std::vector<bool> &vec) {
+    NUM count{3};
+
+    for(const auto it : vec) {
+        if (it == 1) {
+            std::cout << count << "\n";
+        }
+        count += 2;
+    }
 }
